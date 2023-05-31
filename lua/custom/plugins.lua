@@ -67,7 +67,10 @@ local plugins = {
     config = function ()
       require'nvim-lastplace'.setup{}
     end,
-  }
+  },
+  {
+    "edkolev/tmuxline.vim"
+  },
 }
 
 return plugins
